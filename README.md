@@ -2,6 +2,7 @@
 ADDRESS BOOK FOR TAKE A CLIMB CHALLENGE
 
 SOME FUNCTIONALITIES
+
 1.All contact informations are store in the browsers local storage.
 2.The web application is responsive on different devices.
 3.More of the contacts details can be seen when the name is clicked.
