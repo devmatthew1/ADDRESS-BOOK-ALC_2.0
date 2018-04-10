@@ -1,0 +1,437 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial;
+    height: auto;
+    min-width: 400px;
+    background: #f1f1f1;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
+#header{float:left;font-weight:bolder;font-size:3em;;font-family:Georgia,serif;padding: 5px 0px 0px 10px;}
+
+
+input[type=text], input[type=number],input[type=email],input[type=date] {
+    width: 100%; 
+    padding: 10px 5px 10px 5px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: 1.5px solid #f1f1f1;
+    border-radius: 3px;
+    
+}
+
+
+input[type=text]:focus, input[type=password]:focus {
+    
+    outline: none;
+     border:1px solid #A41B1B;
+     background-color: #fff;
+}
+
+
+.myprofile1{
+    background-color: transparent;
+    color: white;
+    padding: 14px 5px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;   
+}
+
+.unique-char {font-weight: bolder;}
+#about li{font-style: italic;}
+
+
+.cancelbtn {
+    padding: 14px 20px;
+    background-color: #af0404;
+}
+.savetofile {
+  background-color: #000;
+}
+
+.cancelbtn, .savetofile {
+  float: left;
+  width: 50%;
+}
+
+.container {
+    padding: 16px;
+
+
+}
+
+
+.modal {
+    display: none; 
+    position: fixed; 
+    z-index: 3;
+    left: 0;
+    top: 0;
+    overflow: auto;
+    width: 100%; 
+    height: 100%; 
+   opacity: 0.97;
+    background-color: #474e5d;
+   
+}
+
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 3% auto 15% auto; 
+    width: 45%; 
+    border-radius: 5px;
+}
+
+.cancelbtn, .savetofile{
+    
+    color: white;
+    padding: 14px 10px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: ;
+    
+}
+
+
+
+.close {
+    position: absolute;
+    right: 35px;
+    top: 15px;
+    font-size: 40px;
+    font-weight: bold;
+    color: #f1f1f1;
+}
+
+.close:hover, .close:focus {
+    color: #f44336;
+    cursor: pointer;
+}
+
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.footer{
+  color: #A41B1B;
+
+
+}
+
+.myprofile h2{text-align: center;}
+.container h1{text-align: center;color: #A41B1B;font-weight: bolder;}
+
+
+
+
+.myprofile img {
+  border-radius: 50%;
+padding-left: 0.5%;
+margin-left: 0.5%;
+}
+
+#about ul{
+  list-style: none;margin: 0px;padding-left: 1em;padding-right: 1em;}
+
+#about ul li{
+  margin: 0px;padding: 5px 0px;}
+
+
+
+.nav_control {
+    overflow: hidden;
+    background-color: #A41B1B;
+}
+
+
+.nav_control a {
+    float: right;
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 20px 16px;
+    text-decoration: none;
+}
+
+
+.right_nav:hover {
+    background-color: #fff;
+    color: #A41B1B;
+}
+.right_nav{font-weight:normal;}
+
+
+.content_right {   
+    float: left;
+    width: 67%;
+ 
+}
+
+
+.content_right1 {   
+    float: left;
+    width: 10%;
+    position: relative;
+    
+   
+}
+
+  .myprofile1 a:hover img {
+        transform: scale(1.5);
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    }
+
+
+.mypic {
+  padding: 0px;
+   border-radius: 50%;
+
+}
+
+.myprofile1 h6 {
+  padding: 0px;
+  margin: 0px;
+text-align: center;
+}
+
+.myprofile1{
+    position: absolute;
+    top: 100px;
+    right: 0;
+    width: 100%;
+    max-width: 100px;
+    max-height: 100px;
+}
+
+.myprofile1 a{
+  text-decoration: none;
+  color: #A41B1B;
+}
+
+.content_left {
+    float: left;
+    width: 22%;
+    background-color:;
+    padding-left: 0px;
+    padding-right: 10px;
+    
+}
+
+
+
+
+.myprofile {
+    background-color: #fff;
+    padding: 20px;
+    margin-top: 0px;
+    border-radius: 5px;
+}
+
+
+.main_container:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+.main_container{margin-left: 0.5%;margin-right: 0.5%;padding-top: 5px; }
+
+
+.footer {
+    padding: 20px;
+
+    text-align: center;
+    background: #ddd;
+    margin-top: 20px;
+    margin-bottom: 0;
+    text-align:center;    
+}
+
+
+@media screen and (max-width: 300px) {
+    .cancelbtn, .savetofile {
+       width: 100%;
+    }
+}
+
+@media screen and (max-width: 400px) {
+  
+
+
+.result .phonenumber {
+       display: none;overflow: hidden;
+}
+
+}
+
+@media screen and (max-width:600px) {
+   .result .email {
+   display: none;overflow: hidden;
+}}
+
+@media screen and (max-width:903px) {
+ 
+
+    .footer{margin-top: 10px;}
+    
+    .content_right {   
+        width: 100%;
+        padding: 0;
+    }
+.contactlist{padding-top: 5%;}
+     .myprofile1{
+    position: fixed;
+    top: 7%;
+    right: 10;
+    bottom: 0px;
+    width: 100%;
+    max-width: 100px;
+    max-height: 100px;
+   }
+
+   .content_left,.nav_control #rlt {   
+   display: none; }
+
+
+     
+}
+
+
+@media screen and (max-width:1300px) {
+   .result .address {
+   display: none;overflow: hidden;
+}
+
+.result{
+    
+    width: 100%;
+    height: 40px;
+    border-bottom: 1px solid #A41B1B;
+    display: inline-block;
+}
+
+.result .del {
+    width:30px;
+    float:left;
+    padding:9px;
+    margin-right: 2px;
+    display: block;
+
+
+}
+     
+   
+}
+
+ /*  THE CONTACT LIST STYLING STARTS HERE*/
+
+.result{
+   
+    width:100%;
+    height:40px;
+    border-bottom: 1px solid #A41B1B;
+   display: inline-block;
+   
+  
+}
+
+
+.result .name  {
+    width: 100%;
+    max-width: 170px;
+    
+    float:left;
+    padding:11px;
+    margin: 1px;
+     overflow: hidden;
+     text-transform:uppercase;
+   
+}
+
+.result .name a  {
+ text-decoration: none;
+ color: #A41B1B;
+   }
+
+.result .name a:hover{
+    color: #000;
+    cursor: pointer;
+}
+
+
+.result .email {
+   
+     width: 100%;
+    max-width:200px;
+    float:left;
+    padding:11px;
+    overflow: hidden;
+    margin: 1px;
+    text-transform: lowercase;
+}
+
+
+.result .phonenumber {
+     width: 100%;
+    max-width: 100px;
+  
+    float:left;
+    padding:11px;
+    margin: 1px;
+     overflow: hidden;
+}
+
+.result .address {
+     width: 100%;
+    max-width: 250px;
+    
+    float:left;
+    padding:11px;
+    overflow: hidden;
+    margin: 1px;
+    text-transform: lowercase;
+}
+
+
+
+.result .del {
+    max-width:30px;
+    float:left;
+    padding:9px;
+    width: 100%;
+}
+
+
+.result span {
+    margin:0px;
+    font-family:sans-serif;
+    font-size:12px;
+    font-weight: bolder;
+    font-style: italic;
+
+   
+}
+
+.result .del a {
+    font-family:sans-serif;
+    color:#FFF;
+    font-size:12px;
+  padding:5px;
+    background-color: #A41B1B;
+    border-radius:8px;
+    text-decoration:none;
+}
+ /*  THE CONTACT LIST STYLING ENDS HERE*/
