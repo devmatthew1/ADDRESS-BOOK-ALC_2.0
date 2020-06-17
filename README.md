@@ -1,7 +1,18 @@
 # ADDRESS-BOOK-ALC_2.0
+
 ADDRESS BOOK FOR TAKE A CLIMB CHALLENGE
 
-SOME FUNCTIONALITIES
+# HOW TO RUN THE APPLICATION
+
+1. This application doesn't require a server to run
+2. Clone the repo or download the repo and then open the INDEX.html to test the application
+
+# TO IMPROVE THE APPLICATION
+
+1. Basic knowledge of html, css and JavaScript
+2. CSS media query and JavaScript DOM knowledge is required
+
+# SOME FUNCTIONALITIES
 
 1.All contact informations are store in the browsers local storage.
 
